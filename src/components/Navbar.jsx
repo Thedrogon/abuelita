@@ -1,22 +1,23 @@
-'use client'
+"use client";
 
+import { Link } from "react-router";
 
 export default function Navbar() {
   return (
     <nav className="w-full px-12 py-6 flex items-center justify-between bg-white">
-      <span className="text-xl font-semibold tracking-tight">
+      <span className="text-5xl tracking-tight text-red-500 font-pacifico font-medium cursor-pointer">
         Abuelita
       </span>
 
-      <ul className="flex gap-10 text-sm text-black/80">
-        <li className="hover:text-black cursor-pointer">About Us</li>
-        <li className="hover:text-black cursor-pointer">Menu</li>
-        <li className="hover:text-black cursor-pointer">Contact Us</li>
+      <ul className="flex gap-15 text-[22px] text-red-500 font-bagel-fat-one">
+        <li className="hover:text-red-800  cursor-pointer">about us</li>
+        <li className="hover:text-red-800  cursor-pointer">menu</li>
+        <li className="hover:text-red-800  cursor-pointer">contact us</li>
       </ul>
 
-      <button className="text-sm font-medium hover:underline">
-        Login
-      </button>
+      <Link to='/signin' className="py-2 px-4 rounded-lg duration-200 text-red-500 font-medium text-[22px] bg-transparent hover:text-white hover:bg-red-500 font-bagel-fat-one">
+        login
+      </Link>
     </nav>
   );
 }

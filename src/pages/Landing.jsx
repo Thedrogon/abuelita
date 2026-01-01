@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 
 export default function Landing() {
   return (
-    <div>
+    <div className="px-24 pt-5">
       <Navbar />
       <Hero />
       <CTASection />
