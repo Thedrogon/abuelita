@@ -1,12 +1,12 @@
 'use client'
 
 // pages/Landing.jsx
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import CTASection from "../components/CTASection";
-import MenuPreview from "../components/MenuPreview";
-import Reviews from "../components/Reviews";
-import Footer from "../components/Footer";
+import Navbar from "../components/Landing/Navbar";
+import Hero from "../components/Landing/Hero";
+import CTASection from "../components/Landing/CTASection";
+import MenuPreview from "../components/Landing/MenuPreview";
+import Reviews from "../components/Landing/Reviews";
+import Footer from "../components/Landing/Footer";
 
 export default function Landing() {
   return (
