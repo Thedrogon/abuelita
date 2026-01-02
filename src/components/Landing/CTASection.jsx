@@ -26,7 +26,7 @@ export default function CTASection() {
             {/* SVG here */}
             <div className="h-12 mb-6 bg-black/5 rounded-full mx-auto w-12" />
             <h3 className={`text-[20px] font-bagel-fat-one ${colors[i]}`}>{item.title}</h3>
-            <p className="mt-2 text-sm text-black/60">{item.desc}</p>
+            <p className="mt-2 text-sm text-black">{item.desc}</p>
           </div>
         ))}
       </div>
